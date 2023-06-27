@@ -1,0 +1,91 @@
+* {
+  margin: 10px;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+}
+
+.btn {
+  border: none;
+  margin-right: 5rem;
+  font-size: 2rem;
+  padding: 2rem 5rem;
+  border-radius: 0.7rem;
+  color: white;
+  background-color: rgb(216, 11, 11);
+  cursor: pointer;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  display: inline-block;
+  width: 250px;
+  height: 20px;
+  margin: 20px;
+  box-shadow: rgba(39, 174, 96, 0.15) 0 4px 9px;
+  box-sizing: border-box;
+  padding: 13px 20px;
+  border-radius: 8px;
+}
+
+.button {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #3790f7;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, 0.15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: #0b4e9b;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.35s;
+}
+
+.button:active {
+  transform: translateY(2px);
+  transition-duration: 0.35s;
+}
+
+.button:hover {
+  box-shadow: rgba(39, 174, 96, 0.2) 0 6px 12px;
+}
